@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    line-height: 1.5;
+}
+.entry {
+    margin: 3rem 1rem;
+    text-align: left;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: #FFFFFF;
+    border: 2px solid #4F46E5;
+    border-radius: 1rem;
+    padding: 5rem auto;
+}
+.subcontainer {
+    margin-left: 1rem;
+}
+.subcontainer h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+.subcontainer .entry-text {
+    font-size: 0.9rem ;
+    margin-bottom: 1rem;
+}
+.subcontainer .included h1 {
+    font-size: 1rem;
+    color: #4F46E5;
+}
+.subcontainer .things p{
+    margin-bottom: 0.5rem;
+}
+.price{
+    margin: 0.4rem;
+    padding: 1rem;
+    background-color:#F9FAFB;
+    border-radius: 1rem;
+    text-align: center;
+}
+.price h1 {
+    color: black;
+    font-size: 1rem;
+}
+
+.price .priceful {
+    font-size: 3rem;
+}
+.price .priceful label {
+    font-size: 1rem;
+    color: grey;
+}
+.main-button  {
+    border: none;
+    background-color: #4F46E5;
+    color: white;
+    padding: 0.7rem 5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.price p {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 0.7rem;
+}
+@media (min-width: 1440px) {
+    .entry {
+        text-align: center;
+    }
+    .entry p{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .container {
+        flex-direction: row;
+        padding: 0;
+        width: 70%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .subcontainer {
+        width: 70%;
+    }
+    .price {
+        width: 30%;
+    }
+    .things {
+        margin-bottom: 1rem;
+    }
+    .things p {
+        margin-bottom: 1rem;
+    }
+
+}
